@@ -13,6 +13,14 @@ body {
     padding: 0;
 }
 
+.social-icons .social-icon {
+    color: white;
+    font-size: 24px; /* Adjust the size as needed */
+    margin: 5px; /* Add spacing between icons if needed */
+    margin-top: 20px;
+}
+
+
 header {
     text-align: center;
     background-color: black;
@@ -28,7 +36,7 @@ img {
     border-radius: 50%; /* Make the profile picture round */
     display: block;
     margin: 0 auto;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 }
 
 section {
@@ -36,7 +44,7 @@ section {
     margin: 0 auto;
     padding: 20px;
     background-color: white;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     margin-top: 20px;
 }
 
