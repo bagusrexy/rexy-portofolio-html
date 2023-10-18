@@ -1,67 +1,66 @@
-<!DOCTYPE html> <!-- proper HTML5 doctype -->
-<html lang="en"> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="utf-8">
-    <meta name="author" content="">
-    <meta name="description" content="">
+    <meta name="author" content="Bagus Rexy Wibowo">
+    <meta name="description" content="Personal Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <head>
-    <h1>Bagus Rexy Wibowo</h1>
-    <img src="./src/profile-pict.jpeg"
-    width="200" 
-    height="200" />
-    <hr>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Portfolio - Bagus Rexy Wibowo</title>
 </head>
-
 <body>
-    <h2>About</h2>
-    <p>I am a computer science Bachelor degree at Gunadarma University, 
-        I am passionate about the Python programming language, 
-        I am very open to the latest technology and i'm willing to open to the new language.</p>
-        <hr>
+    <header>
+        <h1>Bagus Rexy Wibowo</h1>
+        <img src="./src/profile-pict.jpeg" alt="Profile Picture" width="200" height="200">
+    </header>
 
-    <h2>Education</h2>
-    <ul>
-        <li> <strong> Degree Computer Science Gunadarma University (2018 - 2023)  GPA (3,53) </strong> </li>
+    <section id="about">
+        <h2>About</h2>
+        <p>I am a computer science Bachelor's degree student at Gunadarma University. I am passionate about the Python programming language and am very open to the latest technology and new languages.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Degree in Computer Science, Gunadarma University (2018 - 2023), GPA: 3.53</strong></li>
         </ul>
-        <hr>
+    </section>
+
+    <section id="experience">
         <h2>Work Experience</h2>
         <ul>
-            <li> <strong> Lab. Asisstant - Multimedia and Robotics</strong> </li>
-            <p><strong>Ferbruary 2020 - November 2023 </strong></p>
-            <p>
-                Teaching robotics subject, learning about Arduino programming language. Make a Iot project, also make a computer vision project using Python.
-            </p>
-            <li> <strong>Project Intern - BBP MEKTAN (Ministry Agriculture) </strong></li>
-            <p><strong>November 2021 - February 2022 </strong></p>
-            <p>
-                Make an Iot project for agriculture, automation farm using ESP, and make an app for controlling pump and monitoring the plant like soil and humidity.
-            </p>
-            <li> <strong>Flash Mobile </strong></li>
-            <p><strong>November 2022 - February 2023 </strong></p>
-            <ul>
-                <li>
-                    Make an APIs using Fastapi python framework
-                </li>
-                <li>
-                    Bugs fixing in microservice
-                </li>
-            </ul>
-            <li> <strong>MotionPay </strong></li>
-            <p><strong>February 2023 - Present </strong></p>
-            <ul>
-                <li>Make an APIs using Flask framework</li>
-                <li>Database Migrating from MongoDB to PosgreSQL</li>
-                <li>Bugs fixing in user management sistem for login, regist, and otp</li>
-                <li>Make a program ETL for database migration</li>
-                <li>Make an API for Point in MotionPay using Golang programming language</li>
-                <li>Make a QRIS image generator for payment</li>
-        </ul>
-            <hr>  	
-</body>
+            <h3><strong>Lab. Assistant - Multimedia and Robotics</strong></h3>
+            <p><strong>February 2020 - November 2023</strong></p>
+            <li>Teaching robotics, learning Arduino programming, IoT projects, and computer vision using Python.</li>
 
-<footer>
-    <p>&copy; 2023 Bagus Rexy Wibowo. All rights reserved.</p>
-    <p>Contact me at: bwibowo122@gmail.com</p>
-</footer>
-  
+            <h3><strong>Project Intern - BBP MEKTAN (Ministry of Agriculture)</strong></h3>
+            <p><strong>November 2021 - February 2022</strong></p>
+            <li>IoT projects for agriculture, farm automation using ESP, and app development for controlling pumps and monitoring plant conditions.</li>
+
+            <h3><strong>Flash Mobile</strong></h3>
+            <p><strong>November 2022 - February 2023</strong></p>
+            <ul>
+                <li>Developed APIs using FastAPI Python framework.</li>
+                <li>Fixed bugs in microservices.</li>
+            </ul>
+
+            <h3><strong>MotionPay</strong></h3>
+            <p><strong>February 2023 - Present</strong></p>
+            <ul>
+                <li>Developed APIs using Flask framework.</li>
+                <li>Database migration from MongoDB to PostgreSQL.</li>
+                <li>Fixed bugs in the user management system for login, registration, and OTP.</li>
+                <li>Developed an ETL program for database migration.</li>
+                <li>Created an API for Point in MotionPay using Golang.</li>
+                <li>Developed a QRIS image generator for payment.</li>
+            </ul>
+        </ul>
+        <hr>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Bagus Rexy Wibowo. All rights reserved.</p>
+        <p>Contact me at: <a href="mailto:bwibowo122@gmail.com">bwibowo122@gmail.com</a></p>
+    </footer>
+</body>
 </html>
